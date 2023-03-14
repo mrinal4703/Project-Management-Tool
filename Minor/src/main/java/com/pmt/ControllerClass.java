@@ -19,6 +19,11 @@ public class ControllerClass {
         System.out.println("This is welcome page");
         return "hell";
     }
+    @RequestMapping("/hello2")
+    public String hello2(){
+        System.out.println("This is welcome page");
+        return "hell";
+    }
     
 
 }
