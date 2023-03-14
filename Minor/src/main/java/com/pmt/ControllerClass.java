@@ -14,10 +14,11 @@ public class ControllerClass {
         System.out.println("This is welcome page");
         return "welcomepage";
     }
-    @RequestMapping("/helloworld")
-    public String hellowrold()
-    {
-        System.out.println("this is hello world");
+    @RequestMapping("/hello")
+    public String hello(){
+        System.out.println("This is welcome page");
         return "hell";
     }
+    
+
 }
